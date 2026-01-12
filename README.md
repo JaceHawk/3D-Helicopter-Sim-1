@@ -40,9 +40,9 @@ The simulation uses a standard keyboard interface for 4-axis control:
 
 * **W / S:** Pitch (Cyclic Forward/Back)
 * **A / D:** Roll (Cyclic Left/Right)
-* **Q / E:** Yaw (Antitorque Pedals)
-* **SPACE:** Throttle (Collective)
-* **ARROWS:** Camera Control
+* **Q / E:** Yaw (Turn Left/Right)
+* **SPACE:** Throttle
+* **UP / DOWN ARROWS:** Pitch Camera (Up and Down)
 
 ## How to Run
 1.  Ensure you have Python 3.x installed.
