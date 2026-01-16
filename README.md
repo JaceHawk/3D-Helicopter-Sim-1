@@ -33,9 +33,11 @@ The simulation features a multi-body constraint system to simulate heavy-lift op
 ## Engineering Challenges (My Approach)
 
 **Z-Sorting**
+
 Initially, I struggled with clouds rendering on top of the helicopter even when they were miles away. I implemented a Unified Render Queue that takes every object (Mesh, Cloud, Particle), calculates its distance to the camera, and sorts them every frame before drawing.
 
 **Optimizing Dust**
+
 Rendering 3D geometry in an interpreted language is computationally expensive. I optimized the particle system by implementing a "Dice Roll" spawner—only generating dust 40% of the time instead of every frame—which maintained visual fidelity while saving ~40% of CPU cycles during low-altitude maneuvers.
 
 ## Controls
