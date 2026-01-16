@@ -28,7 +28,7 @@ The simulation features a multi-body constraint system to simulate heavy-lift op
 
 ### 3. Environmental Interaction
 * **Ground Effect:** Lift efficiency increases exponentially when flying close to the terrain, simulated via a radar altimeter check.
-* **Procedural Terrain:** Infinite terrain generation using a combination of sine waves to create valleys, peaks, and a flat landing zone.
+* **Procedural Terrain:** Infinite (Theoretically) terrain generation using a combination of sine waves to create valleys, peaks, and a flat landing zone, with cooloration for mountain peaks and forest valleys.
 
 ## Engineering Challenges (My Approach)
 
