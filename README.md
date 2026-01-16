@@ -4,7 +4,10 @@
 ![Engine](https://img.shields.io/badge/engine-Custom_Pygame-green)
 ![Status](https://img.shields.io/badge/status-Complete-success)
 
-## Overview
+![Helicopter Taking Off](./3D-Helicopter-Sim-1-Photo-1.png)
+---
+
+## Project Overview
 **3D Helicoptor Sim 1** is a custom-built 3D flight simulator and physics engine written in pure Python.
 
 Unlike traditional game projects that rely on Unity or Unreal, this engine constructs a 3D world from scratch using raw math. It implements a full 3D rendering pipeline (projection matrices, clipping, painter's algorithm) and a 6-DOF rigid body physics model for rotorcraft flight dynamics.
